@@ -1,0 +1,63 @@
+body.home #main_nav {
+    padding: 12px 0;
+    direction: rtl;
+}
+.page-title h2 {
+    color: #002B65;
+    padding: 10px 20px 0;
+    margin: 0 0 0 58%;
+    font-size: 25px;
+    display: inline-block;
+    border-radius: 10px 10px 0 0;
+    background: #eee;
+}
+#main_nav a {
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 23px;
+    font-weight: bold;
+}
+.col-6.text-right a {
+    text-transform: uppercase;
+    color: #002b65;
+    font-weight: bold;
+    font-size: 18px;
+}
+.bottom_footer h4 {
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.bottom_footer a, .bottom_footer p {
+    font-size: 20px;
+    line-height: 37px;
+}
+.col-3 {
+    width: 18%;
+    float: right;
+    text-align: right;
+    padding-right: 5%;
+}
+.about-us-text {
+    text-align: center;
+   
+}
+#wpcf7-f46-o1 input.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required {
+    background-color: #000e1d;
+    border: none;
+    height: 35px;
+    text-align: right;
+    width: 95%;
+}
+#wpcf7-f46-o1 textarea.wpcf7-form-control.wpcf7-textarea {
+    background-color: #000e1d;
+    border: none;
+    height: 70px;
+    text-align: right;
+    width: 95%;
+    margin-top: 10px;
+}
+[type="submit"]{
+	letter-spacing: 0;
+}
