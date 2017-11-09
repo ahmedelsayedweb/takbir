@@ -383,7 +383,7 @@ text-transform: uppercase;
 }
 .logo_container{
 	padding: 15px 0;
-	background: #fff;
+	background: #f3f3f3;
 }
 .logo_container img{
     max-height: 150px;
@@ -684,10 +684,15 @@ Footer
 	font-size: 18px;
 	margin-bottom: 30px;
 }
-.bottom_footer a,
-.bottom_footer p{
+.bottom_footer a{
 	font-size: 16px;
     line-height: 35px;
+}
+.bottom_footer p{
+	font-size: 16px;
+    line-height: 0px;
+	margin: 0;
+	padding: 0;
 }
 .bottom_footer a:hover{
 	opacity: .7;
@@ -940,6 +945,7 @@ h1 a {
   border: 2px solid #333;
   border-top: none;
   text-align: center;
+	    padding: 0 10px 30px;
   margin: 60px auto;
 }
 
@@ -1043,23 +1049,34 @@ h2.ui-title-inner {
     padding: 0;
     margin: 0;
 }
-#wpcf7-f43-o2 input.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required {
+.foten input.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required {
     background-color: #000e1d;
     border: none;
     height: 35px;
 	    width: 75%;
 	margin-top: 0px;
 }
-#wpcf7-f43-o2 textarea.wpcf7-form-control.wpcf7-textarea {
+.foten textarea.wpcf7-form-control.wpcf7-textarea {
     background-color: #000e1d;
     border: none;
     height: 70px;
     width: 75%;
     margin-top: 10px;
 }
-#wpcf7-f43-o2 input.wpcf7-form-control.wpcf7-submit {
+.foten input.wpcf7-form-control.wpcf7-submit {
     margin: 0;
     padding: 10px;
     border-radius: 8px;
     font-size: 16px;
+}
+.foten input.wpcf7-form-control.wpcf7-submit {
+    padding: 10px;
+    border-radius: 10px;
+    margin: 0;
+}
+input.wpcf7-form-control.wpcf7-file.wpcf7-validates-as-required {
+    margin-top: 20px;
+}
+a.button:after{
+	content: ' Read More ';
 }

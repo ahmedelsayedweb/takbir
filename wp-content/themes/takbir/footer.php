@@ -68,7 +68,7 @@
             <li><a href="http://localhost/psolvingegypt/takbir/ar/about">من نحن</a></li>
             <li><a href="http://localhost/psolvingegypt/takbir/ar/pro">منتجاتنا</a></li>
             <li><a href="http://localhost/psolvingegypt/takbir/ar/contact">اتصل بنا </a></li>
-            <li><a href="#">وظائف خالية</a></li>
+            <li><a href="http://localhost/psolvingegypt/takbir/ar/carees/">وظائف خالية</a></li>
           </ul>
         </div>
         <div class="col-3">
@@ -84,7 +84,7 @@
             <li><a href="http://localhost/psolvingegypt/takbir/ar/store">فروعنا</a></li>
           </ul>          
         </div>
-        <div class="col-3">
+        <div class="col-3 foten">
           <h4>تواصل معانا</h4>'; ?>
 		  <?php echo
           do_shortcode('[contact-form-7 id="46" title="contact footer ar"]'); ?>
@@ -97,7 +97,7 @@
             <li><a href="http://localhost/psolvingegypt/takbir/about-us">About Us</a></li>
             <li><a href="http://localhost/psolvingegypt/takbir/products">Products</a></li>
             <li><a href="http://localhost/psolvingegypt/takbir/contact-us">Contact Us</a></li>
-            <li><a href="">Careers</a></li>
+            <li><a href="http://localhost/psolvingegypt/takbir/careers/">Careers</a></li>
           </ul>
         </div>
         <div class="col-3">
@@ -114,7 +114,7 @@
             <li><a href="http://localhost/psolvingegypt/takbir/store_locator">Store Locator</a></li>
           </ul>          
         </div>
-        <div class="col-3">
+        <div class="col-3 foten">
           <h4>Continue with us</h4>'; ?>
 		  <?php echo
           do_shortcode('[contact-form-7 id="43" title="contact footer"]'); ?>

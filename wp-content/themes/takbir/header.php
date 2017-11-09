@@ -46,7 +46,7 @@ ul.bulletList li, ul.bulletList ul {
         <div class="col-6">
           <ul class="p0 m0">
             <li><a href="#"><i class="fa fa-phone"></i><?php echo $call; ?> </a></li>
-            <li><a href="#"><i class="fa fa-map-marker"></i><?php echo $email; ?></a></li>
+            <li><a href="#"><i class="fa fa-envelope-o"></i><?php echo $email; ?></a></li>
 			  <?php
 					if(is_active_sidebar('header')){
 					dynamic_sidebar('header');
