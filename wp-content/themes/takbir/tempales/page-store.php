@@ -16,6 +16,7 @@
         <h2><?php the_title(); ?></h2>
         </div>
     </div>
+	<?php the_content();?>
 	<div class="col-12">
 	<ul id="accordion" class="accordion">
 		<li>
