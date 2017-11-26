@@ -22,16 +22,20 @@
               <div class="posts-group">
                 <article class="b-post b-post-4 clearfix">
                   <div class="col-md-12 entry-media">
+					  <?php the_content(); ?>
+<!--
 					  <a href="<?php the_permalink(); ?>" class="js-zoom-images">
 						  <div class="sale"><?php the_field('sale'); ?></div>
 						  <img src="<?php the_post_thumbnail_url(); ?>" class="img-responsive"/>
 					  </a>
+-->
 					</div>
                   <div class="col-md-12 entry-main">
                     <div class="entry-header">
-                      <h2 class="ui-title-inner"><?php the_title(); ?></h2>
+                      
+						
+<!--						<h2 class="ui-title-inner"><?php the_title(); ?></h2>-->
                     </div>
-                    <div class="entry-content"><?php the_content(); ?></div>
                   </div>
 					<?php
 							}

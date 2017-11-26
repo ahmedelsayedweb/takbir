@@ -62,11 +62,11 @@
 		</a>   
     <div class="card-section text-center">
         <h4><?php the_title() ?></h4>
-            <?php the_excerpt(); ?>
          <a href="<?php the_permalink(); ?>" class="button"></a>
     </div>
 </div>  
 </div>
+	  
 	  <?php $i++;
 									?>
 							
